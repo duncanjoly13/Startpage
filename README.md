@@ -1,7 +1,7 @@
 # Shortcuts:
 
 ----4chan----
- /pol/ -> [Shift + p]\n
+ /pol/ -> [Shift + p]
  /biz/ -> [Shift + b]
  /int/ -> [Shift + i]
  /his/ -> [Shift + h]
