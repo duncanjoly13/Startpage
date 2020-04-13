@@ -1,4 +1,4 @@
-Shortcuts:
+# Shortcuts:
 
 ----4chan----
  /pol/ -> [Shift + p]
@@ -28,6 +28,5 @@ Shortcuts:
  PHP       -> [Shift + p + 0]
  Github    -> [Shift + g + 0]
 
---
 -ProtonMail -> [Shift + o]
---
+
