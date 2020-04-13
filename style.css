@@ -1,0 +1,108 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+h5 { margin-bottom: 5px; font-size: 1.1em; }
+a { text-decoration: none; color: #111; }
+a:hover { text-decoration: underline; text-shadow: 1px 1px #fff4; }
+div { padding: 5px; }
+a:visited { color: #111; }
+input[type="image"] { width: 5vw; }
+
+:root {
+	--shadow: 5px 5px 8px #1115;
+}
+::placeholder {
+	color: inherit;
+	text-align: center;
+}
+
+body {
+	height: 100vh;
+	background-color: #1115; /*#1115*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: monospace;
+}
+
+.content {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.content::before {
+	content: "";
+	position: absolute;
+	margin-top: -5px;
+	margin-left: -5px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	border: 2px solid red;
+}
+.content::after {
+	content: "";
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	border: 2px solid blue;
+}
+
+.menu {
+	display: flex;
+}
+
+.item {
+	margin: 10px;
+	padding: 5px;
+	/* border: 1px solid white; */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	/* border-radius: 8px; */
+	box-shadow: var(--shadow);
+}
+
+form {
+	margin: 10px;
+	display: block;
+}
+
+.search { display: flex; }
+
+input[type="text"] {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #111;
+	/* clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0% 25%); */
+	background-color: transparent;
+	height: 2em;
+	transition: 0.25s;
+	font-size: 1em;
+	text-align: center;
+	font-family: inherit;
+}
+input[type="text"]:hover {
+	border-bottom: 1px solid #00f;
+}
+input[type="text"]:focus {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #00f;
+	animation: @keyframes disappear;
+	animation-duration: 1s;
+}
+input[type="text"]:focus::-webkit-input-placeholder  {color:transparent;}
+input[type="text"]:focus::-moz-placeholder   {color:transparent;}
+input[type="text"]:-moz-placeholder   {color:transparent;}
+
+.input::before {
+	content: "";
+	height: 2em;
+	position: relative;
+}
