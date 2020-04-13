@@ -1,14 +1,14 @@
 # Shortcuts:
 
 ----4chan----
- /pol/ -> [Shift + p]
- /biz/ -> [Shift + b]
- /int/ -> [Shift + i]
- /his/ -> [Shift + h]
- /adv/ -> [Shift + a]
- /sci/ -> [Shift + s]
- /wg/  -> [Shift + w]
- /wsg/ -> [Shift + g]
+ /pol/ -> [Shift + p].
+ /biz/ -> [Shift + b].
+ /int/ -> [Shift + i].
+ /his/ -> [Shift + h].
+ /adv/ -> [Shift + a].
+ /sci/ -> [Shift + s].
+ /wg/  -> [Shift + w].
+ /wsg/ -> [Shift + g].
 
 ------Media------
  Youtube   -> [Shift + y]
